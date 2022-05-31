@@ -1,8 +1,13 @@
-import MyComponent from "./MyComponent";
+import React, {Component} from "react";
+import IterationSample from "./IterationSample";
 import './App.css';
 
-const App=()=>{
-  return <MyComponent name="React" favoriteNumber={3}>리액트 </MyComponent>;
+class App extends Component {
+  render(){
+    return(
+        <IterationSample/>
+    )
+  }
 }
 
 
